@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	height: 15vh;
+	width: 100vw;
+	background-color: #6C5DF8;
+}
+
+.logomicro{
+	padding-top: 1%;
+	padding-left: 1%;
+}
+
+nav{
+	height: 10vh;
+	width: 100vw;
+	background-color: #6C5DF8;
+	color: #ffffff;
+
+}
+
+ul{
+	width: 50%;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	float: right;
+	text-decoration: none;
+	
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+}
+
+a:link{
+  text-decoration: none!important;
+  color: #ffffff;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+}
+
+a:visited{
+	text-decoration: none!important;
+  color: #ffffff;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+}
+
+li{
+	display: inline;
+	align-items: center;
+	color: #ffffff;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	text-decoration: none;
+	list-style: none;
+}
+
+li:hover{
+	border-color: #FFCC33;
+	background-color: #0A0B42;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.mar, .rev, .di, .web{
+	width: 140px;
+	background-color: #4740DD;
+	border-radius: 25px;
+	padding: 1%;
+	align-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*SECTION INDEX MICROSITIO*/
+
+#sectionindex{
+	position: relative;
+	
+}
+
+/*GALERIA INDEX MICROSITIO*/
+
+/*ARTICLE GENIO QUE CONTIENE GALERIA*/
+#genio{
+	height: 100vh; 
+	width: 50%;
+	background-color: rgba(34, 64, 235, 0.4);
+	float: right;
+	vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    padding-top: 2%;
+}
+
+img{
+	display: block;
+}
+
+/*IMAGENES GALERIA*/
+#gal1{
+	width: 20%;
+	align-content: center;
+	height: 60%;
+	position: relative;
+	margin-bottom: 5%;
+}
+
+.imggal1{
+	border: #FFCC33 5px solid;
+}
+
+#gal2{
+	height: 30%;
+	position: absolute;
+	display: table-column;
+}
+
+/*BORDE AMARILLO PARA TODAS LAS FOTOS CHICAS*/
+.imggal2{
+	border: #FFCC33 5px solid;
+}
+
+#gal3{
+	height: 30%;
+	position: absolute;
+	float: right;
+	margin-left: 16.5%;
+}
+
+#gal4{
+	height: 30%;
+	position: absolute;
+	align-items: center;
+	margin-left: 33%;
+	float: right;
+}
+
+#gal1:hover,
+#gal2:hover,
+#gal3:hover,
+#gal4:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*TEXTO INDEX IZQUIERDA*/
+
+#article2{
+	height: 100vh;
+	width: 50%;
+	float: left;
+	background-color: rgba(34, 64, 235, 0.4);
+	padding-top: 2%;
+	padding-left: 3%;
+}
+
+h1{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 60px;
+	color: #FFCC33;
+	text-shadow: #6C5DF8 1px 3px 6px;
+}
+
+h1:hover{
+	color:  #6C5DF8;
+	text-decoration: underline;
+	cursor: default;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;
+	margin-right: 4%;
+}
+
+.pconborder{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;
+	margin-right: 4%;
+	text-decoration: underline; #FFCC33 5px double;
+}
+/*FIN SECTION INDEX MICROSITIO*/
+
+/*SECTION MARCA*/
+
+#sectionmarca{
+	height: 172vh;
+	width: 100vw;
+	position: relative;
+	background-color:  rgba(34, 64, 235, 0.4);
+}
+
+.divm1{
+	width: 30vw;
+	padding-top: 2%;
+	padding-left: 3%;
+	position: absolute;
+}
+
+h2{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 24px;
+}
+
+h2:hover{
+	color:  #6C5DF8;
+	text-decoration: underline;
+	cursor: default;
+}
+
+.isotipos{
+	border: #FFCC33 5px double;
+	padding:2%;
+	margin-left: 10%;
+
+}
+
+.trial2{
+	padding-top: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2%;
+	border: #FFCC33 5px double;
+	margin-left: 13%;
+}
+
+.trial2:hover{
+	background-color:  #6C5DF8;
+	transform: scale(1.1);
+}
+
+/*FIN DIV MARCA 1*/
+
+.divm2, .divd2{
+	width: 30vw;
+	padding-top: 2%;
+	margin-left: 32%;
+	float: right;
+	position: absolute;
+}
+
+.tipolibre{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+span{
+	text-decoration: underline;
+}
+
+.tipomont{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+/*FIN DIV MARCA 2*/
+
+.divm3, .divd3{
+	width: 30vw;
+	padding-top: 2%;
+	margin-left: 64%;
+	float: right;
+	position: absolute;
+}
+
+/*FIN DIV MARCA 3*/
+
+
+/*COMIENZO SECTION DISEÑO*/
+.layout{
+
+}
+
+#sectiondiseño{
+	height:700px;
+	width: 100vw;
+	position: relative;
+	background-color:  rgba(34, 64, 235, 0.4);
+}
+
+.layout{
+	width: 40vw;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+.layoutpng{
+	width: 40vw;
+	padding-top: 1%;
+	padding-right: 2%;
+	position: absolute;
+	align-content: center;
+	align-items: center;
+	display: inline-flex;
+	z-index: 1;
+}
+
+.webpag{
+	float: right;
+	width: 60vw;
+}
+
+.column{
+	float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.new{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 24px;
+}
+.new:hover{
+	color:  #6C5DF8;
+	text-decoration: underline;
+	cursor: default;
+}
+
+#paletacrom{
+	width: 40vw;
+	height: 300px;
+	position: absolute;
+	padding-top: 15%;
+	padding-left: 3%;
+}
+
+
+.trialnew{
+	width: 40vw;
+	padding-top: 86.5%;
+}
+
+.pag1:hover{
+transform: scale(1.1);
+	cursor: pointer;
+}
+
+/*FIN SECTION DISEÑO*/
+
+/*COMIENZO SECTION RELEVAMIENTO*/
+
+
+#article3{
+	height: 700px;
+	width: 50%;
+	float: left;
+	background-color: rgba(34, 64, 235, 0.4);
+	padding-top: 2%;
+	padding-left: 3%;
+}
+
+
+#genio2{
+	height: 700px; 
+	width: 50%;
+	background-color: rgba(34, 64, 235, 0.4);
+	float: right;
+	vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+
+
+
+
+
+
+/*COMIENZO SECTION WEB*/
+#sectionweb{
+	height: 700px;
+	width: 100vw;
+	position: relative;
+	background-color:  rgba(34, 64, 235, 0.4);
+}
+
+/*FIN SECTION WEB*/
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer{
+	height: 10vh;
+	width: 100vw;
+	background-color: #6C5DF8;
+	color: #ffffff;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	padding-top: 1%;
+	z-index: 1;
+	display: inline-block;
+}
+
+.goback{
+	width: 270px;
+	float: left;
+	margin-left: 1%;
+	background-color: #4740DD;
+	border-radius: 25px;
+	align-content: center;
+	text-align: center;
+	padding: 0.5%;
+}
+
+.goback:hover{
+	border-color: #FFCC33;
+	background-color: #0A0B42;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.name{
+	float: right;
+	
+	background-color: #4740DD;
+	border-radius: 25px;
+	align-content: center;
+	text-align: center;
+	padding: 0.5%;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+
+}
+
+.name:hover{
+	border-color: #FFCC33;
+	background-color: #0A0B42;
+	cursor: pointer;
+	text-decoration: underline;
+}
